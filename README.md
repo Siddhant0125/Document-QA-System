@@ -2,23 +2,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Haystack](https://img.shields.io/badge/Haystack-AI-orange.svg)](https://haystack.deepset.ai/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A powerful document question-answering system built with Haystack, featuring a user-friendly Jupyter notebook interface. This system allows users to upload PDF or Word documents and ask questions about their content using advanced RAG (Retrieval-Augmented Generation) technology.
-
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- [System Architecture](#system-architecture)
-- [Configuration](#configuration)
-- [API Reference](#api-reference)
-- [Contributing](#contributing)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
 
 ## ✨ Features
 
@@ -286,37 +271,6 @@ generation_kwargs = {
 | ipywidgets | Latest | Interactive widgets |
 | python-dotenv | Latest | Environment management |
 
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-### How to Contribute
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Development Setup
-
-```bash
-git clone https://github.com/yourusername/document-qa-system.git
-cd document-qa-system
-pip install -r requirements.txt
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-For issues or questions:
-1. Check the [troubleshooting section](#-troubleshooting) above
-2. Review the [Haystack documentation](https://haystack.deepset.ai/)
-3. Check model-specific documentation for embedding and LLM models used
-4. Open an [issue](https://github.com/yourusername/document-qa-system/issues) on GitHub
 
 ## 🙏 Acknowledgments
 
